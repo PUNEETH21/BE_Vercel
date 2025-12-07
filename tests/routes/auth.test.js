@@ -47,7 +47,7 @@ describe('Auth Routes', () => {
         .expect(400);
 
       expect(response.body.success).toBe(false);
-      expect(response.body.message).toContain('already exists');
+      expect(response.body.message).toContain('already exists123');
     });
 
     it('should validate required fields', async () => {
