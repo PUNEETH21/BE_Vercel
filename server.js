@@ -45,7 +45,7 @@ app.use('/api/search', require('./routes/search'));
 app.get('/api/health', (req, res) => {
   res.status(200).json({ 
     status: 'OK', 
-    message: 'Healthcare Wellness API is running',
+    message: 'Healthcare Wellness API is running. 12',
     timestamp: new Date().toISOString()
   });
 });
